@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":zvideo" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../taoziyuan/app/platforms/android/WeexFrameworkWrapper" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":rtmpplayer" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/../../taoziyuan/app/platforms/android/WeexFrameworkWrapper" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":zvideo" />
+        <option name="GRADLE_PROJECT_PATH" value=":rtmpplayer" />
         <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.0.0" />
         <option name="LAST_KNOWN_AGP_VERSION" value="3.0.0" />
       </configuration>
@@ -93,31 +93,34 @@
     <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\lala\Documents\taoziyuan\app\node_modules\nexus\nexus\libs\umeng-share-core-6.9.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\lala\Documents\taoziyuan\app\node_modules\nexus\nexus\libs\otto-1.3.5.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: __local_aars__:C.\Users\lala\Documents\taoziyuan\app\node_modules\nexus\nexus\libs\libammsdk.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:25.3.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp:okhttp-ws:2.3.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.9.1@jar" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-android:1.7.21@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:25.3.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp:okhttp:2.3.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.13.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.zxing:core:3.2.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.weex.plugin:processor:1.0.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.31@jar" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.7.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.7.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: org.weex.plugin:annotation:1.0.0@jar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.tohodog:QSVideoPlayer:2.2.7@aar" level="project" />
-    <orderEntry type="library" name="Gradle: tv.danmaku.ijk.media:ijkplayer-exo:0.8.8@aar" level="project" />
-    <orderEntry type="library" name="Gradle: tv.danmaku.ijk.media:ijkplayer-java:0.8.8@aar" level="project" />
-    <orderEntry type="library" name="Gradle: tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.danikula:videocache:2.7.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.taobao.android:weex_inspector:0.13.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: de.mrmaffen:vlc-android-sdk:2.0.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.journeyapps:zxing-android-embedded:3.4.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.lzy.widget:imagepicker:0.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.chrisbanes.photoview:library:1.2.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.taobao.android:weex_inspector:0.13.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v4:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:25.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat:25.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.taobao.android.weex_inspection:protocol:1.1.4.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:okhttp3-integration:4.7.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.journeyapps:zxing-android-embedded:3.4.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.chrisbanes.photoview:library:1.2.4@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:multidex:1.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: me.ele:bspatch:1.0.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.taobao.android:weex_analyzer:0.1.0.5@aar" level="project" />
@@ -125,16 +128,6 @@
     <orderEntry type="library" name="Gradle: com.alibaba.android:bindingx_weex_plugin:1.0.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: org.weex.plugin:plugin-loader:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.niorgai:StatusBarCompat:2.1.4@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.exoplayer:exoplayer:r1.5.11@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-v4:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-media-compat:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:25.3.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.android.support:support-compat:25.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.getkeepsafe.relinker:relinker:1.2.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:4.7.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.7.1@aar" level="project" />

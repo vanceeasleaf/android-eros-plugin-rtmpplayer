@@ -13,6 +13,11 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true
+        ndk {
+
+            abiFilters "armeabi-v7a"
+
+        }
     }
 
     buildTypes {
@@ -22,18 +27,7 @@ android {
         }
     }
 
-    sourceSets {
-        main() {
-            manifest.srcFile 'src/main/AndroidManifest.xml'
-            java.srcDirs = ['src/main/java']
-            resources.srcDirs = ['src/main/resources']
-            res.srcDirs = ['src/main/res']
-            assets.srcDirs = ['src/main/assets']
-            jniLibs.srcDirs = ['libs']
-            jni.srcDirs = ['src/main/jni']
 
-        }
-    }
 
 }
 
@@ -46,13 +40,14 @@ repositories {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 //    api 'fm.jiecao:jiecaovideoplayer:1.6'
 //    api 'com.github.tcking:giraffeplayer2:0.1.25-full'
 //    api "com.github.tcking:ijkplayer-java:0.8.8"
 //    api "com.github.tcking:ijkplayer-armv7a:0.8.8"
-    api 'com.github.tohodog:QSVideoPlayer:2.2.7'
+//    api 'com.github.tohodog:QSVideoPlayer:2.2.7'
     // api project(':farwolf.weex')
+    compile "de.mrmaffen:vlc-android-sdk:2.0.6"
 compile project(':wxframework')
 //    api 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
 //    api 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
